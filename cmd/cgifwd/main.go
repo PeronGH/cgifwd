@@ -11,7 +11,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: cgifwd <target url>")
+		fmt.Println("Usage: cgifwd <target base url>")
 		os.Exit(1)
 	}
 
